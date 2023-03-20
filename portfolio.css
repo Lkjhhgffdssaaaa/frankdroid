@@ -479,6 +479,7 @@ nav.navbar {}
 .skills{
     display: flex;
     justify-content: space-evenly;
+    gap: 15px 15px !important;
     padding: 30px;
 }
 
@@ -486,7 +487,6 @@ nav.navbar {}
     .skills{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        row-gap: 20px;
     }
 }
 
