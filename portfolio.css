@@ -57,11 +57,13 @@ p{
     z-index: 9;
 }
 
-nav.navbar {}
-
 .navbrand{
     font-size: 21px;
     margin-left: 20px;
+}
+
+.navbrand h3{
+    color: #fff;
 }
 
 .navlink{
@@ -73,6 +75,7 @@ nav.navbar {}
 .navlink ul {
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 
 .navlink li {
@@ -208,7 +211,7 @@ nav.navbar {}
 .about-btn .about-cv{
     font-size: 21px;
     display: flex;
-    font-family:'Baloo Paaji', cursive;
+    font-family: sans-serif;
     border:none;
     background-color: transparent;
     color: #2d2d2e;
