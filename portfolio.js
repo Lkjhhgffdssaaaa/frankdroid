@@ -37,12 +37,6 @@ helpBtn.addEventListener('click', function () {
 });
 
 
-toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active')
-})
-
-
-
 
 var max_value = 500;
 
@@ -55,19 +49,3 @@ message.addEventListener('input', function () {
     counter.textContent = `${currentCount} characters remaining`;
 
 });
-
-
-// var navbarToggle = navbar.querySelector("#navbar-toggle");
-var navbarMenu = document.querySelector("#navbar-menu");
-var navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
-let isNavbarExpanded = navbarToggle.getAttribute("aria-expanded") === "true";
-
-var toggleNavbarVisibility = () => {
-  isNavbarExpanded = !isNavbarExpanded;
-  navbarToggle.setAttribute("aria-expanded", isNavbarExpanded);
-};
-
-navbarToggle.addEventListener("click", toggleNavbarVisibility);
-
-navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
-navbarMenu.addEventListener("click", toggleNavbarVisibility);
