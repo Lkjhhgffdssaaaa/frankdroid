@@ -1,0 +1,187 @@
+.nav-link,
+button{
+  border: 0;
+  padding: 0 10px;
+  font-family: inherit;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  background: #19191c;
+  color: #f9f9f9;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 0 0 16px;
+  }
+}
+
+.navbar-overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+body.open .navbar-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-overlay {
+    display: none;
+  }
+}
+
+.navbar-burger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-burger {
+    display: none;
+  }
+}
+
+.navbar-title {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-menu {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  translate: -100% 0;
+  width: 200px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #000000;
+  visibility: hidden;
+  transition: translate 0.3s;
+}
+
+.nav-li{
+  display: grid;
+  place-items: center;
+}
+
+.nav-li li{
+  list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  .nav-li{
+    display: flex;
+    align-items: center;
+  }
+  .nav-li li{
+    list-style: none;
+  }
+}
+
+body.open .navbar-menu {
+  translate: 0 0;
+  visibility: visible;
+}
+
+body.open .navbar-menu .nav-li li{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-menu {
+    position: static;
+    translate: 0 0;
+    width: auto;
+    background: transparent;
+    flex-direction: row;
+    visibility: visible;
+  }
+}
+
+.navbar-menu > button {
+  color: rgba(255, 255, 255, 0.5);
+  background: transparent;
+  padding: 0 8px;
+}
+
+.navbar-menu > button.active {
+  color: inherit;
+}
+
+
+.custom-btn {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: inset 2px 2px 2px 0px #0000FF,
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  font-size: 15px;
+}
+
+.btn-2 {
+  background: #0000ff;
+  background: linear-gradient(0deg, #0000ff 0%, #0000ff 100%);
+  border: none;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}

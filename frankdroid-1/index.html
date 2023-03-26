@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="new.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<!-- <body> -->
+<main>
+    <!-- THE HOME PAGE -->
+    <div id="#main-div-container">
+        <!-- THE NAVIGATION BAR -->
+        <nav class="navbar">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                <span class="material-icons">menu</span>
+            </button>
+            <h1 class="navbar-title">Franklin Oladipupo</h1>
+            <nav class="navbar-menu">
+                <ul class="nav-li">
+                    <li><a href="#homepage" class="nav-link">Home</a></li>
+                    <li><a href="#about-section" class="nav-link"> About</a></li>
+                    <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                    <li><a href="#project-section" class="nav-link">Projects</a></li>
+                    <li><a href="#article-section" class="nav-link">Articles</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- THE END OF NAVIGATION BAR -->
+    </div>
+    <!--  -->
+
+
+    <div class="home-page" id="homepage">
+
+        <div class="homepage">
+            <!-- <img src="C:\Users\USER\Desktop\frankdroid\assets\images\slider\green-workspace.jpg" alt="slider one"> -->
+        </div>
+
+        <div class="homepage-info">
+            <!-- <img src="C:/Users/USER/Desktop/frankdroid/assets/images/slider/green-workspace.webp" alt="hui"> -->
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <section id="about-section">
+        <div class="about">
+            <div class="about-img">
+                <img src="assets/images/about-me.jpg" />
+            </div>
+
+            <div class="about-desc">
+                <h3 class="sub-title">ABOUT ME</h3>
+                <div>
+                    <p>
+                        A mobile developer having 4 years of experience building mobile apps for
+                        the Android and iOS platform using native and cross-platform
+                        technologies such as <strong>Flutter/Dart, Kotlin, Java</strong>.<br /> I've spent my
+                        professional
+                        experience working in various sector like <br />fintech, e-commerce, healthcare,<br />
+                        social-networks, etc.<br /> Having a good team spirit I have successfully led 2
+                        teams to building production-level apps.
+                    </p>
+                    <div class="about-btn">
+                        <a href="Franklin's Resume.pdf" target="_blank" download>
+                            <button class="custom-btn btn-2">
+                                Download
+                                <span>
+                                    <img src="https://img.icons8.com/material/24/null/downloading-updates--v1.png"
+                                        style="margin-left: 7px;" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- //the skills section-->
+
+    <section id="skills-section">
+        <h3 class="sub-title">MY SKILLS</h3>
+        <div class="skills">
+
+            <div>
+                <div class="skill-img"></div>
+                <!-- <br> Flutter </br> -->
+            </div>
+
+
+            <div>
+                <img class="skill-img-two" src="assets/images/dart.svg" alt="">
+                <!-- <br> Dart </br> -->
+            </div>
+
+            <div>
+                <div class="skill-img-three"></div>
+                <!-- <br> Javascript </br> -->
+            </div>
+            <div>
+                <div class="skill-img-four"></div>
+                <!-- <br> NodeJs </br> -->
+            </div>
+
+            <div>
+                <div class="skill-img-five">
+
+                </div>
+                <!-- <br> Git </br> -->
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- //end of skills section -->
+
+    <!-- // Section for Project -->
+    <section class="section" id="project-section">
+        <h3 class="sub-title">PROJECTS</h3>
+
+        <div class="mast-proj">
+            <div class="project-one" id="project">
+
+                <div class="project-desc">
+                    <h3 class="project-title">Slydo Mobile App</h3>
+                    <p>Slydo App is a super app with various features like Fintech, E-commerce, Social, etc.<br>
+                        It is a lifestyle app you can use to send and receive payments, create contract and invoice.
+
+
+                    </p>
+                    <button class="custom-btn btn-2" id="slydo_btn">Slydo on <span><svg
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                viewBox="0 0 48 48">
+                                <path fill="#4db6ac"
+                                    d="M7.705,4.043C7.292,4.15,7,4.507,7,5.121c0,1.802,0,18.795,0,18.795S7,42.28,7,43.091c0,0.446,0.197,0.745,0.5,0.856l20.181-20.064L7.705,4.043z">
+                                </path>
+                                <path fill="#dce775"
+                                    d="M33.237,18.36l-8.307-4.796c0,0-15.245-8.803-16.141-9.32C8.401,4.02,8.019,3.961,7.705,4.043l19.977,19.84L33.237,18.36z">
+                                </path>
+                                <path fill="#d32f2f"
+                                    d="M8.417,43.802c0.532-0.308,15.284-8.825,24.865-14.357l-5.601-5.562L7.5,43.947C7.748,44.038,8.066,44.004,8.417,43.802z">
+                                </path>
+                                <path fill="#fbc02d"
+                                    d="M41.398,23.071c-0.796-0.429-8.1-4.676-8.1-4.676l-0.061-0.035l-5.556,5.523l5.601,5.562c4.432-2.559,7.761-4.48,8.059-4.653C42.285,24.248,42.194,23.5,41.398,23.071z">
+                                </path>
+                            </svg></span></button>
+                </div>
+
+                <div class="project-img">
+                    <div class="project-one-img">
+                        <img src="assets/images/slydo.png" alt="Slydo image" />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-two" id="project">
+                <div class="project-img">
+                    <div class="project-two-img">
+                        <img src="assets/images/waziki.jpeg" />
+                    </div>
+
+                </div>
+
+                <div class="project-desc">
+                    <h3 class="project-title">Waziki Life</h3>
+                    <p>Waziki Life is an health care application that you can use to enter your symptoms and get
+                        possible health care advise.<br>
+                        You can also book appointments with verified doctors.
+                    </p>
+                    <button class="custom-btn btn-2" id="waziki_btn">Waziki on <span><svg
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="27" height="27"
+                                viewBox="0 0 50 50">
+                                <path
+                                    d="M 25 2 C 12.316406 2 2 12.316406 2 25 C 2 37.683594 12.316406 48 25 48 C 37.683594 48 48 37.683594 48 25 C 48 12.316406 37.683594 2 25 2 Z M 21.40625 15.824219 C 21.722656 15.285156 22.414063 15.105469 22.953125 15.421875 L 23.957031 16.007813 C 24.496094 16.324219 24.679688 17.015625 24.363281 17.558594 L 23.367188 19.261719 L 20.410156 17.53125 Z M 10.328125 23.324219 L 16.472656 23.324219 L 14.515625 26.632813 L 10.328125 26.632813 Z M 11.808594 36.074219 C 11.734375 36.144531 11.625 36.15625 11.535156 36.105469 C 11.449219 36.054688 11.40625 35.953125 11.433594 35.855469 L 12.863281 30.445313 L 15.820313 32.175781 Z M 13.234375 29.804688 L 20.167969 17.945313 L 23.125 19.675781 L 16.191406 31.535156 Z M 19.589844 26.632813 L 21.425781 23.328125 L 28.511719 23.328125 L 30.347656 26.632813 Z M 23.183594 13.019531 C 22.867188 12.480469 23.054688 11.785156 23.59375 11.472656 L 24.511719 10.9375 C 25.050781 10.625 25.742188 10.808594 26.058594 11.347656 L 33.898438 24.84375 L 31.023438 26.515625 Z M 31.34375 27.070313 L 34.21875 25.398438 L 35.882813 28.261719 L 33.007813 29.929688 Z M 37.394531 35.984375 C 37.328125 36.078125 37.160156 36 37.109375 35.921875 C 36.976563 35.710938 37.09375 35.421875 36.671875 34.777344 C 35.894531 33.59375 34.867188 33.828125 33.875 32.160156 C 33.699219 31.867188 33.105469 30.523438 33.875 30.066406 C 34.285156 29.820313 34.980469 29.40625 35.449219 29.144531 C 36.238281 28.695313 36.96875 29.636719 37.371094 30.226563 C 38.238281 31.492188 38.589844 34.335938 37.394531 35.984375 Z M 39.628906 26.632813 L 35.507813 26.632813 L 33.707031 23.328125 L 39.628906 23.328125 Z">
+                                </path>
+                            </svg></span></button>
+                </div>
+            </div>
+
+
+            <div class="project-three" id="project">
+
+                <div class="project-desc-three">
+                    <h3 class="project-title">HELP Station</h3>
+                    <p>Help station is an health-care application you can use to request for ambulance and first aid
+                        and get a very fast response. <br>
+                        <br>You can also use it to book ambulance for your events.
+                    </p>
+                    <button class="custom-btn btn-2" id="help_btn"> Help on <span><svg
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                viewBox="0 0 48 48">
+                                <path fill="#4db6ac"
+                                    d="M7.705,4.043C7.292,4.15,7,4.507,7,5.121c0,1.802,0,18.795,0,18.795S7,42.28,7,43.091c0,0.446,0.197,0.745,0.5,0.856l20.181-20.064L7.705,4.043z">
+                                </path>
+                                <path fill="#dce775"
+                                    d="M33.237,18.36l-8.307-4.796c0,0-15.245-8.803-16.141-9.32C8.401,4.02,8.019,3.961,7.705,4.043l19.977,19.84L33.237,18.36z">
+                                </path>
+                                <path fill="#d32f2f"
+                                    d="M8.417,43.802c0.532-0.308,15.284-8.825,24.865-14.357l-5.601-5.562L7.5,43.947C7.748,44.038,8.066,44.004,8.417,43.802z">
+                                </path>
+                                <path fill="#fbc02d"
+                                    d="M41.398,23.071c-0.796-0.429-8.1-4.676-8.1-4.676l-0.061-0.035l-5.556,5.523l5.601,5.562c4.432-2.559,7.761-4.48,8.059-4.653C42.285,24.248,42.194,23.5,41.398,23.071z">
+                                </path>
+                            </svg></span></button>
+                </div>
+                <div class="project-three-img">
+                    <img src="assets/images/help.png" />
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- // Section for Articles -->
+
+    <section id="article-section">
+        <h3 class="sub-title">MY ARTICLES</h3>
+
+        <div class="article-cont">
+
+            <div class="article-one toggle-div" id="item">
+                <a href="https://medium.com/@franklinoladipo/androids-clipboardmanager-980f20958b7d" target="_blank">
+                    <img src="assets/images/clipboard.jpg" alt="Clipboard Manager">
+                    <!-- <span class="toggle-text">Clipboard Manager</span> -->
+                </a>
+            </div>
+
+            <div class="article-two" id="item">
+                <a href="https://medium.com/@franklinoladipo/working-with-exoplayer-1654778b8d3a" target="_blank">
+                    <img src="assets/images/exoplayer.jpg" alt="Working with Exoplayer">
+                </a>
+            </div>
+
+            <div class="article-three" id="item">
+                <a href="https://medium.com/@franklinoladipo/sharing-qr-code-in-flutter-619c210419b6" target="_blank"
+                    class=".third-article">
+                    <img src="assets/images/qr-code.jpg" alt="Share QR Code in Flutter">
+                </a>
+            </div>
+
+            <div class="article-four" id="item">
+                <a href="forecaster/forecaster.html" target="_blank" class=".third-article">
+                    <img src="assets/images/weather-chart.jpg" alt="Weather forecaster">
+                </a>
+            </div>
+
+            <div class="article-five" id="item">
+                <a href="currency_converter/currency_converter.html" target="_blank" class=".third-article">
+                    <img src="assets/images/currency.jpg" alt="currency converter">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- end of articles section -->
+
+
+    <!-- Section for Contact Me -->
+
+
+
+
+    <section id="contact-section" class="contact">
+        <h3 class="sub-title">CONTACT ME</h3>
+        <section>
+            <div class="container">
+                <div class="form">
+                    <form class="cont-inline">
+                        <!-- <div class="row"> -->
+                        <div class="cont-group ">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="cont-group ">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="cont-group ">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="cont-group  text-center">
+                            <div class="send_btn">
+                                <a href="#">Send</a>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+            </div>
+            </div>
+            </div>
+
+        </section>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    </section>
+
+
+
+    </div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script type="text/JavaScript" src="toggle.js"></script>
+<<script src="portfolio.js">
+    </script>
+    </body>
+
+</html>
