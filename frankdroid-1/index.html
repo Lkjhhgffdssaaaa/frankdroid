@@ -36,7 +36,7 @@
             <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
                 <span class="material-icons">menu</span>
             </button>
-            <h1 class="navbar-title">Franklin Oladipupo</h1>
+            <h1 class="navbar-title">Franklin Oladipo</h1>
             <nav class="navbar-menu">
                 <ul class="nav-li">
                     <li><a href="#homepage" class="nav-link">Home</a></li>
@@ -55,11 +55,15 @@
     <div class="home-page" id="homepage">
 
         <div class="homepage">
-            <!-- <img src="C:\Users\USER\Desktop\frankdroid\assets\images\slider\green-workspace.jpg" alt="slider one"> -->
-        </div>
-
-        <div class="homepage-info">
-            <!-- <img src="C:/Users/USER/Desktop/frankdroid/assets/images/slider/green-workspace.webp" alt="hui"> -->
+            <div class="prof-text">
+                <h2 class="head-text">WELCOME !,Let's Get Started</h2>
+                <!-- <h3 class="prof-head">
+                    I Am A cross-platform <br/>
+                    <span class="span-prof">Mobile Engineer</span>
+                </h3>
+                <span class="prof-span">Get Started</span> -->
+            </div>
+            <img src="assets/images/web-development.jpg" alt="">
         </div>
 
     </div>
@@ -86,7 +90,7 @@
                         teams to building production-level apps.
                     </p>
                     <div class="about-btn">
-                        <a href="Franklin's Resume.pdf" target="_blank" download>
+                        <a id="cv-a" href="Franklin's Resume.pdf" target="_blank">
                             <button class="custom-btn btn-2">
                                 Download
                                 <span>
@@ -111,29 +115,29 @@
 
             <div>
                 <div class="skill-img"></div>
-                <!-- <br> Flutter </br> -->
+                <p class="p-skill">Flutter</p>
             </div>
 
 
             <div>
                 <img class="skill-img-two" src="assets/images/dart.svg" alt="">
-                <!-- <br> Dart </br> -->
+                <p class="p-skill">Dart</p>
             </div>
 
             <div>
                 <div class="skill-img-three"></div>
-                <!-- <br> Javascript </br> -->
+                <p class="p-skill">Javascript</p>
             </div>
             <div>
                 <div class="skill-img-four"></div>
-                <!-- <br> NodeJs </br> -->
+                <p class="p-skill">NodeJs</p>
             </div>
 
             <div>
                 <div class="skill-img-five">
 
                 </div>
-                <!-- <br> Git </br> -->
+                <p class="p-skill">Git</p>
             </div>
 
 
@@ -156,9 +160,8 @@
 
 
                     </p>
-                    <button class="custom-btn btn-2" id="slydo_btn">Slydo on <span><svg
-                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
-                                viewBox="0 0 48 48">
+                    <button class="custom-btn btn-2" id="slydo_btn"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="37" height="37" viewBox="0 0 48 48">
                                 <path fill="#4db6ac"
                                     d="M7.705,4.043C7.292,4.15,7,4.507,7,5.121c0,1.802,0,18.795,0,18.795S7,42.28,7,43.091c0,0.446,0.197,0.745,0.5,0.856l20.181-20.064L7.705,4.043z">
                                 </path>
@@ -171,7 +174,7 @@
                                 <path fill="#fbc02d"
                                     d="M41.398,23.071c-0.796-0.429-8.1-4.676-8.1-4.676l-0.061-0.035l-5.556,5.523l5.601,5.562c4.432-2.559,7.761-4.48,8.059-4.653C42.285,24.248,42.194,23.5,41.398,23.071z">
                                 </path>
-                            </svg></span></button>
+                            </svg></span>Play Store</button>
                 </div>
 
                 <div class="project-img">
@@ -183,26 +186,39 @@
             </div>
 
             <div class="project-two" id="project">
+
+                <div class="project-desc" id="mobile">
+                    <h3 class="project-title">Waziki Life</h3>
+                    <p> is an health care application that you can use to enter your symptoms and get
+                        possible health care advise.<br>
+                        You can also book appointments with verified doctors.
+                    </p>
+                    <button class="custom-btn btn-2" id="waziki_btn"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="37" height="37" viewBox="0 0 50 50">
+                                <path
+                                    d="M 25 2 C 12.316406 2 2 12.316406 2 25 C 2 37.683594 12.316406 48 25 48 C 37.683594 48 48 37.683594 48 25 C 48 12.316406 37.683594 2 25 2 Z M 21.40625 15.824219 C 21.722656 15.285156 22.414063 15.105469 22.953125 15.421875 L 23.957031 16.007813 C 24.496094 16.324219 24.679688 17.015625 24.363281 17.558594 L 23.367188 19.261719 L 20.410156 17.53125 Z M 10.328125 23.324219 L 16.472656 23.324219 L 14.515625 26.632813 L 10.328125 26.632813 Z M 11.808594 36.074219 C 11.734375 36.144531 11.625 36.15625 11.535156 36.105469 C 11.449219 36.054688 11.40625 35.953125 11.433594 35.855469 L 12.863281 30.445313 L 15.820313 32.175781 Z M 13.234375 29.804688 L 20.167969 17.945313 L 23.125 19.675781 L 16.191406 31.535156 Z M 19.589844 26.632813 L 21.425781 23.328125 L 28.511719 23.328125 L 30.347656 26.632813 Z M 23.183594 13.019531 C 22.867188 12.480469 23.054688 11.785156 23.59375 11.472656 L 24.511719 10.9375 C 25.050781 10.625 25.742188 10.808594 26.058594 11.347656 L 33.898438 24.84375 L 31.023438 26.515625 Z M 31.34375 27.070313 L 34.21875 25.398438 L 35.882813 28.261719 L 33.007813 29.929688 Z M 37.394531 35.984375 C 37.328125 36.078125 37.160156 36 37.109375 35.921875 C 36.976563 35.710938 37.09375 35.421875 36.671875 34.777344 C 35.894531 33.59375 34.867188 33.828125 33.875 32.160156 C 33.699219 31.867188 33.105469 30.523438 33.875 30.066406 C 34.285156 29.820313 34.980469 29.40625 35.449219 29.144531 C 36.238281 28.695313 36.96875 29.636719 37.371094 30.226563 C 38.238281 31.492188 38.589844 34.335938 37.394531 35.984375 Z M 39.628906 26.632813 L 35.507813 26.632813 L 33.707031 23.328125 L 39.628906 23.328125 Z">
+                                </path>
+                            </svg></span>App Store</button>
+                </div>
+
                 <div class="project-img">
                     <div class="project-two-img">
                         <img src="assets/images/waziki.jpeg" />
                     </div>
-
                 </div>
 
-                <div class="project-desc">
+                <div class="project-desc" id="screen">
                     <h3 class="project-title">Waziki Life</h3>
                     <p>Waziki Life is an health care application that you can use to enter your symptoms and get
                         possible health care advise.<br>
                         You can also book appointments with verified doctors.
                     </p>
-                    <button class="custom-btn btn-2" id="waziki_btn">Waziki on <span><svg
-                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="27" height="27"
-                                viewBox="0 0 50 50">
+                    <button class="custom-btn btn-2" id="waziki_btn"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="37" height="37" viewBox="0 0 50 50">
                                 <path
                                     d="M 25 2 C 12.316406 2 2 12.316406 2 25 C 2 37.683594 12.316406 48 25 48 C 37.683594 48 48 37.683594 48 25 C 48 12.316406 37.683594 2 25 2 Z M 21.40625 15.824219 C 21.722656 15.285156 22.414063 15.105469 22.953125 15.421875 L 23.957031 16.007813 C 24.496094 16.324219 24.679688 17.015625 24.363281 17.558594 L 23.367188 19.261719 L 20.410156 17.53125 Z M 10.328125 23.324219 L 16.472656 23.324219 L 14.515625 26.632813 L 10.328125 26.632813 Z M 11.808594 36.074219 C 11.734375 36.144531 11.625 36.15625 11.535156 36.105469 C 11.449219 36.054688 11.40625 35.953125 11.433594 35.855469 L 12.863281 30.445313 L 15.820313 32.175781 Z M 13.234375 29.804688 L 20.167969 17.945313 L 23.125 19.675781 L 16.191406 31.535156 Z M 19.589844 26.632813 L 21.425781 23.328125 L 28.511719 23.328125 L 30.347656 26.632813 Z M 23.183594 13.019531 C 22.867188 12.480469 23.054688 11.785156 23.59375 11.472656 L 24.511719 10.9375 C 25.050781 10.625 25.742188 10.808594 26.058594 11.347656 L 33.898438 24.84375 L 31.023438 26.515625 Z M 31.34375 27.070313 L 34.21875 25.398438 L 35.882813 28.261719 L 33.007813 29.929688 Z M 37.394531 35.984375 C 37.328125 36.078125 37.160156 36 37.109375 35.921875 C 36.976563 35.710938 37.09375 35.421875 36.671875 34.777344 C 35.894531 33.59375 34.867188 33.828125 33.875 32.160156 C 33.699219 31.867188 33.105469 30.523438 33.875 30.066406 C 34.285156 29.820313 34.980469 29.40625 35.449219 29.144531 C 36.238281 28.695313 36.96875 29.636719 37.371094 30.226563 C 38.238281 31.492188 38.589844 34.335938 37.394531 35.984375 Z M 39.628906 26.632813 L 35.507813 26.632813 L 33.707031 23.328125 L 39.628906 23.328125 Z">
                                 </path>
-                            </svg></span></button>
+                            </svg></span>App Store</button>
                 </div>
             </div>
 
@@ -215,9 +231,8 @@
                         and get a very fast response. <br>
                         <br>You can also use it to book ambulance for your events.
                     </p>
-                    <button class="custom-btn btn-2" id="help_btn"> Help on <span><svg
-                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
-                                viewBox="0 0 48 48">
+                    <button class="custom-btn btn-2" id="help_btn"><span><svg xmlns="http://www.w3.org/2000/svg" x="0px"
+                                y="0px" width="37" height="37" viewBox="0 0 48 48">
                                 <path fill="#4db6ac"
                                     d="M7.705,4.043C7.292,4.15,7,4.507,7,5.121c0,1.802,0,18.795,0,18.795S7,42.28,7,43.091c0,0.446,0.197,0.745,0.5,0.856l20.181-20.064L7.705,4.043z">
                                 </path>
@@ -230,14 +245,13 @@
                                 <path fill="#fbc02d"
                                     d="M41.398,23.071c-0.796-0.429-8.1-4.676-8.1-4.676l-0.061-0.035l-5.556,5.523l5.601,5.562c4.432-2.559,7.761-4.48,8.059-4.653C42.285,24.248,42.194,23.5,41.398,23.071z">
                                 </path>
-                            </svg></span></button>
+                            </svg></span>Play Store</button>
                 </div>
                 <div class="project-three-img">
                     <img src="assets/images/help.png" />
                 </div>
 
             </div>
-
         </div>
     </section>
 
@@ -252,14 +266,15 @@
             <div class="article-one toggle-div" id="item">
                 <a href="https://medium.com/@franklinoladipo/androids-clipboardmanager-980f20958b7d" target="_blank">
                     <img src="assets/images/clipboard.jpg" alt="Clipboard Manager">
-                    <!-- <span class="toggle-text">Clipboard Manager</span> -->
                 </a>
+                <p class="p-skill">Clipboard Manager</p>
             </div>
 
             <div class="article-two" id="item">
                 <a href="https://medium.com/@franklinoladipo/working-with-exoplayer-1654778b8d3a" target="_blank">
-                    <img src="assets/images/exoplayer.jpg" alt="Working with Exoplayer">
+                    <img src="assets/images/exoplayer.jpg" alt="exoplayer">
                 </a>
+                <p class="p-skill">Exoplayer</p>
             </div>
 
             <div class="article-three" id="item">
@@ -267,18 +282,21 @@
                     class=".third-article">
                     <img src="assets/images/qr-code.jpg" alt="Share QR Code in Flutter">
                 </a>
+                <p class="p-skill">QR-Scanner</p>
             </div>
 
             <div class="article-four" id="item">
                 <a href="forecaster/forecaster.html" target="_blank" class=".third-article">
                     <img src="assets/images/weather-chart.jpg" alt="Weather forecaster">
                 </a>
+                <p class="p-skill">Weather Chart</p>
             </div>
 
             <div class="article-five" id="item">
                 <a href="currency_converter/currency_converter.html" target="_blank" class=".third-article">
                     <img src="assets/images/currency.jpg" alt="currency converter">
                 </a>
+                <p class="p-skill">Currency Converter</p>
             </div>
 
         </div>
@@ -328,10 +346,57 @@
     <br>
 
     </section>
-
-
-
     </div>
+
+    <footer>
+        <div class="socials">
+            <div class="head">
+                <p>Socials:</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/franklin-oladipo/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mobiledevgenie/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Frankdroid77" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:ibukunoladipo2015@gmail.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
